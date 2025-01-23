@@ -4,11 +4,10 @@ use App\Http\Controllers\RegisterUserController;
 use App\Http\Controllers\SearchController;
 use App\Http\Controllers\SessionController;
 use App\Http\Controllers\TagsController;
-use App\Models\tag;
 use Illuminate\Support\Facades\Route;
     //*index
 Route::get('/', [JobController::class , 'index']);
-//? search
+    //? search
 Route::get('/search' ,SearchController::class);
 Route::get('/tags/{tag:name}' , TagsController::class);
     //! jobs

@@ -60,36 +60,4 @@ class JobController extends Controller
         endif;
         return redirect("/");
     }
-
-    /*
-     * Display the specified resource.
-     */
-    public function show(job $job)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     */
-    public function edit(job $job)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     */
-    public function update(UpdatejobRequest $request, job $job)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     */
-    public function destroy(job $job)
-    {
-        //
-    }
 }
