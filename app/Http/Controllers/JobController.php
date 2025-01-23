@@ -47,7 +47,7 @@ class JobController extends Controller
             "location" => ["required"],
             "schedule" => ["required", Rule::in(["Part Time", "Full Time"])],
             "url" => ["required", "active_url"],
-            "tags" => ["nullable"]
+            "tags" => ["nullable"]  
         ]);
         $attributes["featured"] = $request::has("featured");
         $job = Auth::user()->employer->jobs()->create(
