@@ -3,7 +3,7 @@
 a web application to find your job or find your employeer smoothly
 <table>
 <ul>
-    <title>main models in the project:</title>
+    <h3>main models in the project:</h3>
     <li>jobs</li>
     <li>Employer</li>
     <li>Tag</li>
